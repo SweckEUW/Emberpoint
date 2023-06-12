@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5599174065660077855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117331634146995291}
+  - component: {fileID: 7089153591779852205}
+  - component: {fileID: 5420868485812673593}
+  m_Layer: 0
+  m_Name: ZoneCircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1117331634146995291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599174065660077855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7089153591779852205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599174065660077855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e96eeca308a4743be8bfe68d56efb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0
+  position: {x: 0, y: 0, z: 0}
+  zoneUpdater: {fileID: 6343606266629350610, guid: bd9610026bbd61b4e89922ce0e7474b9, type: 3}
+--- !u!111 &5420868485812673593
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599174065660077855}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ca6d4a9f987a6da4e839736324e1dce3, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e4b7ef9754275c14f8e2678f0acc582f, type: 2}
+  - {fileID: 7400000, guid: ca6d4a9f987a6da4e839736324e1dce3, type: 2}
+  - {fileID: 7400000, guid: f64ad11e64ef58049820229b68f2b5e0, type: 2}
+  - {fileID: 7400000, guid: 943991172e686cb44b4228cdff08e6d5, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

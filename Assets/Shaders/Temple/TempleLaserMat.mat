@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TempleLaserMat
+  m_Shader: {fileID: -6465566751694194690, guid: 46a83ba86a40e1844806dea0bae71104, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7337fc5f68a1476aac1aea49a58867b7:
+        m_Texture: {fileID: 2800000, guid: 9469a7240d0a7144f9655e4700183c63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a8726ed86af3493180be6ef8e7aee0f1:
+        m_Texture: {fileID: 2800000, guid: 0e2e7e9759507b64ab23c1df2370201b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12dc82d09f87420194681c7b9d542443: 30
+    - Vector1_53d7e417371c434a97bba09f41c2974d: 0.494
+    - Vector1_7e729f67402e4facbbb6c93abceb6fcd: 0.6
+    - Vector1_e8bdfa8bdb1e4cf9b8e05801009424ae: 0.855
+    m_Colors:
+    - Color_4114459967a747bd933a043cfd2c922d: {r: 27.07444, g: 27.07444, b: 27.07444, a: 0}
+    - Vector2_7445ef0f78be4ee0959980c71fba3cb5: {r: -2, g: -1, b: 0, a: 0}
+    - Vector2_d43a03b199d54523abc357fe8661b2e1: {r: 0, g: 5, b: 0, a: 0}
+  m_BuildTextureStacks: []
